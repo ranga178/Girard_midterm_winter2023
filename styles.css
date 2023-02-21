@@ -1,0 +1,68 @@
+* {
+    margin:0;
+    padding:0;
+}
+/*Type selector */
+body {
+    background-color:blue;
+    
+}
+/* class selector*/
+.wrapper {
+    font-weight:600;
+}
+
+/* child selector*/
+section > p {
+    font-weight:400;
+}
+h1 ~ p {
+    border-style:dotted;
+    border-color:black;
+}
+
+/*Headings */
+h1,
+h2,
+h3 {
+    font-family: 'Roboto Mono', monospace;
+}
+
+table,p {
+    font-family: url(./alex-brush/SIL\ Open\ Font\ License.txt);
+    font-size:4em; 
+}
+
+.wrapper {
+    
+    width:80vw;
+    text-align:center;
+    display:center;
+    justify-content:center;
+    background-color:blanchedalmond ;/*Background color */
+    height:auto;/*responsive */
+}
+/* padding added*/
+article {
+    padding-top:2em;
+    padding-left:3em;
+    padding-right:3em;
+}
+table {
+    font-size:2em;;
+}
+thead {
+    width:40rem;
+}
+th,
+td {
+    padding:15px;
+}
+
+footer {
+    background-color:#333;
+    color:#FFF;
+    padding:3em;
+    position: sticky;
+    
+}
